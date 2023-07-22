@@ -13,8 +13,8 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo6.png" alt="logo"></a>
-            <div class="nav-links">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -22,15 +22,96 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
-            <h1>LA's Premier Recording Studio</h1>
-            <p>Put your musical ideas to life!</p>
+            <h1>Bido's Recording Studio</h1>
+            <p>Put your musical ideas to life in Los Angeles' premier music studio!<br> Enjoy the vibrance and comfort of our spaces while using our state-of-the art recording equipment.<br>
+                What are you waiting for? Book now and start creating!
+            </p>
             <a href="" class="hero-btn">Visit us to discover more</a>
         </div>
     </section>
+
+    <!-- Gear page -->
     
+
+    <section class="gear">
+        <h1>Our Equipment List</h1>
+        
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Microphones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+            <div class="course-col">
+                <h3>Compressors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+            <div class="course-col">
+                <h3>Instruments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- our clients -->
+
+    <section class="campus">
+        <h1>Take A Peek ....</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil similique officia praesentium, quaerat quae 
+            quibusdam 
+            soluta cum veritatis reiciendis, repellat repellendus 
+            alias animi facilis vitae accusamus ipsam incidunt magni deserunt.</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/studio5.jpg" alt="">
+        <div class="layer">
+            <h3>Studio One</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/studio6.jpg" alt="">
+        <div class="layer">
+            <h3>Studio Two</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/studio7.jpg" alt="">
+        <div class="layer">
+            <h3>Studio Three</h3>
+        </div>
+    </div>
+
+</div>
+       
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
