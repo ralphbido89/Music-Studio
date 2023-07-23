@@ -3,10 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header"></section>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo6.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">GEAR</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Bido's Recording Studio</h1>
+            <p>Put your musical ideas to life in Los Angeles' premier music studio!<br> Enjoy the vibrance and comfort of our spaces while using our state-of-the art recording equipment.<br>
+                What are you waiting for? Book now and start creating!
+            </p>
+            <a href="" class="hero-btn">Visit us to discover more</a>
+        </div>
+    </section>
+
+    <!-- Gear page -->
     
+
+    <section class="gear">
+        <h1>Our Equipment List</h1>
+        
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Microphones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+            <div class="course-col">
+                <h3>Compressors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+            <div class="course-col">
+                <h3>Instruments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
+                    commodi. Reprehenderit, cumque. Minima inventore dolorum perspiciatis 
+                    aperiam atque ipsam similique quam magnam dolor? Totam, debitis doloremque! 
+                    Tempora nulla nam sed!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- our clients -->
+
+    <section class="campus">
+        <h1>Take A Peek....</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil similique officia praesentium, quaerat quae 
+            quibusdam 
+            soluta cum veritatis reiciendis, repellat repellendus 
+            alias animi facilis vitae accusamus ipsam incidunt magni deserunt.</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/studio5.jpg" alt="">
+        <div class="layer">
+            <h3>Studio One</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/studio6.jpg" alt="">
+        <div class="layer">
+            <h3>Studio Two</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/studio7.jpg" alt="">
+        <div class="layer">
+            <h3>Studio Three</h3>
+        </div>
+    </div>
+
+</div>
+       
+    </section>
+
+
+    <!-- The City of LA -->
+    <section class="facilities">
+            <h1>Los Angeles</h1>
+            <p>Enjoy this beautiful city that is historic and vibrant, as you embark on your musical journey.<br>
+            Los Angeles is home to several of the world's best artists and musicians! This city is full of inspiration,<br>
+        and is perfect for collaborating with other creatives from different walks of life.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/la1.jpg" alt="">
+                <h3>Beatiful Sites!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quae asperiores, sit itaque, optio accusantium perspiciatis 
+                    beatae commodi repellendus quas temporibus maiores nam laudantium tempore natus, cum veniam porro. 
+                    Praesentium!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/la2.jpg" alt="">
+                <h3>Amazing Scenery!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quae asperiores, sit itaque, optio accusantium perspiciatis 
+                    beatae commodi repellendus quas temporibus maiores nam laudantium tempore natus, cum veniam porro. 
+                    Praesentium!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/la3.jpg" alt="">
+                <h3>Vibrant City!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quae asperiores, sit itaque, optio accusantium perspiciatis 
+                    beatae commodi repellendus quas temporibus maiores nam laudantium tempore natus, cum veniam porro. 
+                    Praesentium!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>Musician's Catalog</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis autem consequatur officia quis error est,
+             delectus debitis repellendus, libero, fuga recusandae nulla 
+             fugiat pariatur earum quia labore molestiae cum molestias?</p>
+
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/band1.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ea 
+                            quo in illo aut repellat quisquam maiores animi dolore 
+                            recusandae labore eveniet, neque consectetur excepturi blanditiis 
+                            reiciendis officia obcaecati delectus!</p>
+                        <h3>Joshua Patel</h3>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/band2.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta incidunt dolorum fugiat sapiente expedita quaerat, 
+                            est odio totam! Ut earum dolorem quos ipsa expedita itaque blanditiis 
+                            enim velit at ullam.</p>
+                        <h3>Sarah Putnam</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+    </section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
